@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": "> 1%, last 2 versions",
   "bugs": {
     "url": "https://github.com/federico-allegrini/webpack-study-react/issues"
   },
@@ -22,7 +23,11 @@
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-stage-2": "^7.8.3",
+    "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
