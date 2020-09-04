@@ -10,7 +10,7 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "",
   },
-  devtool: "cheap_module-eval-source-map",
+  devtool: "cheap-module-eval-source-map",
   module: {
     rules: [
       {
@@ -50,7 +50,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: __dirname + "/src/index.html",
-      filename: "index.hml",
+      filename: "index.html",
       inject: "body",
     }),
   ],
